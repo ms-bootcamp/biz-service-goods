@@ -44,7 +44,7 @@ class GoodsControllerTest {
                 Goods.builder().name("good3").description("good3").build()
         );
         goodsRepository.deleteAll();
-        goodsRepository.save(goods);
+        goodsRepository.saveAll(goods);
     }
 
     @Test
